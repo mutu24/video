@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>飲食店の名前</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="images/2336-157269911_small.mp4" type="video/mp4">
+            お使いのブラウザは動画タグに対応していません。
+        </video>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#menu">メニュー</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>ようこそ、飲食店の名前へ</h1>
+        <p>美味しい料理と素敵な雰囲気をご提供します。</p>
+    </section>
+
+    <section id="menu">
+        <h2>メニュー</h2>
+        <ul>
+            <li>料理1 - ¥1000</li>
+            <li>料理2 - ¥1200</li>
+            <li>料理3 - ¥1500</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form>
+            <label for="name">名前:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 飲食店の名前</p>
+    </footer>
+</body>
+</html>
